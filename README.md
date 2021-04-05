@@ -17,9 +17,9 @@ The refactored code performed much better than the original code, with the origi
 
 ![Time2018](Class/Module2/Time2018.png)
 
-![Refactored_Time2017](Class/Module2/Refactored_Time2017.png)
+![VBA_Challenge_2017](Class/Module2/Resources/VBA_Challenge_2017.png)
 
-![Refactored_Time2018](Class/Module2/Refactored_Time2018.png)
+![VBA_Challenge_2017](Class/Module2/Resources/VBA_Challenge_2017.png)
 
 In order to make the refactored code more efficient we created 4 different arrays: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrives. The tickers array created a ticker symbol for the stock, and we created a tickerIndex variable to match the other arrays. Using the variable, we could assign all three of these arrays to the ticker symbols. This helped the code run much faster.
 
