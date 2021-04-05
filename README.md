@@ -5,11 +5,11 @@ Although our code worked fine analyzing just 12 stocks it would probably face so
 ## Results
 	There were some major differences between the stock performances of 2017 and 2018. The overall performance of the stocks was much better in 2017 with all the stocks having a positive return besides one stock. Four stocks in 2017 even had returns over 100 percent. 
 
-![Stocks_2017](Module2)Stocks_2017.png)
+![Stocks_2017](Module2/Stocks_2017.png)
 
  In 2018 only 2 stocks had a positive return, and of the two stocks with a positive return only one performed better than it did in the previous year. The one negative stock from 2017 also improved in 2018, but it remained negative. 
 
-![Stocks_2018](Module2)Stocks_2018.png)
+![Stocks_2018](Module2/Stocks_2018.png)
 
 The refactored code performed much better than the original code, with the original code running in 5.01 and 6.10 seconds, and the refactored code running in 0.83 and 0.75 seconds for 2017 and 2018, respectively.
 
