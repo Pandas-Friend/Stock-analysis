@@ -5,31 +5,31 @@ Although our code worked fine analyzing just 12 stocks it would probably face so
 ## Results
 	There were some major differences between the stock performances of 2017 and 2018. The overall performance of the stocks was much better in 2017 with all the stocks having a positive return besides one stock. Four stocks in 2017 even had returns over 100 percent. 
 
-![Stocks_2017](Module2/Stocks_2017.png)
+![Stocks_2017](Module_2/Stocks_2017.png)
 
  In 2018 only 2 stocks had a positive return, and of the two stocks with a positive return only one performed better than it did in the previous year. The one negative stock from 2017 also improved in 2018, but it remained negative. 
 
-![Stocks_2018](Module2/Stocks_2018.png)
+![Stocks_2018](Module_2/Stocks_2018.png)
 
 The refactored code performed much better than the original code, with the original code running in 5.01 and 6.10 seconds, and the refactored code running in 0.83 and 0.75 seconds for 2017 and 2018, respectively.
 
-![Time_2017](Module2/Time_2017.png)
+![Time_2017](Module_2/Time_2017.png)
 
-![Time_2018](Module2/Time_2018.png)
+![Time_2018](Module_2/Time_2018.png)
 
-![Refactored_Time_2017](Module2/Refactored_Time_2017.png)
+![Refactored_Time_2017](Module_2/Refactored_Time_2017.png)
 
-![Refactored_Time_2018](Module2/Refactored_Time_2018.png)
+![Refactored_Time_2018](Module_2/Refactored_Time_2018.png)
 
 In order to make the refactored code more efficient we created 4 different arrays: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrives. The tickers array created a ticker symbol for the stock, and we created a tickerIndex variable to match the other arrays. Using the variable, we could assign all three of these arrays to the ticker symbols. This helped the code run much faster.
 
-![Original_Code1](Module2/Original_Code1)
+![Original_Code1](Module_2/Original_Code1)
 
-![Original_Code2](Module2/Original_Code2)
+![Original_Code2](Module_2/Original_Code2)
 
-![Refactored_Code1](Module2/Refactored_Code1)
+![Refactored_Code1](Module_2/Refactored_Code1)
 
-![Refactored_Code2](Module2/Refactored_Code2)
+![Refactored_Code2](Module_2/Refactored_Code2)
 
 ## Summary
 	The most obvious advantage to refactoring code is that it runs much faster as shown above. Refactored code is also usually easier to understand. The disadvantage to refactoring code is that it can take up a lot of time to modify code that already runs without any bugs. For our script, the advantage of the code running faster was on full display with the refactored code running much faster. The disadvantage was that it took me hours to refactor it and when only running an analysis on 12 stocks saving a few seconds is not really worth it, but when Steve applies this to a thousand or more stocks the extra time put in refactoring will definitely be worth it.
