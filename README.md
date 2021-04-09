@@ -23,13 +23,13 @@ The refactored code performed much better than the original code, with the origi
 
 In order to make the refactored code more efficient we created 4 different arrays: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrives. The tickers array created a ticker symbol for the stock, and we created a tickerIndex variable to match the other arrays. Using the variable, we could assign all three of these arrays to the ticker symbols. This helped the code run much faster.
 
-![OriginalCode1](/photos/OriginalCode1)
+![OriginalCode1](/photos/OriginalCode1.png)
 
-![OriginalCode2](/photos/OriginalCode2)
+![OriginalCode2](/photos/OriginalCode2.png)
 
-![RefactoredCode1](/photos/RefactoredCode1)
+![RefactoredCode1](/photos/RefactoredCode1.png)
 
-![RefactoredCode2](/photos/RefactoredCode2)
+![RefactoredCode2](/photos/RefactoredCode2.png)
 
 ## Summary
 	The most obvious advantage to refactoring code is that it runs much faster as shown above. Refactored code is also usually easier to understand. The disadvantage to refactoring code is that it can take up a lot of time to modify code that already runs without any bugs. For our script, the advantage of the code running faster was on full display with the refactored code running much faster. The disadvantage was that it took me hours to refactor it and when only running an analysis on 12 stocks saving a few seconds is not really worth it, but when Steve applies this to a thousand or more stocks the extra time put in refactoring will definitely be worth it.
